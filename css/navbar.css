@@ -81,6 +81,7 @@
 .logotype {
   display: flex;
   justify-content: center;
+  font-weight: 700;
 }
 
 @media (max-width: 950px) {
