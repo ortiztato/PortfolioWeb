@@ -25,15 +25,15 @@
 
 .profile {
   text-align: center;
-  padding-top: 50px;
 }
 
 .profile-title {
   font-size: 35px;
   font-weight: bold;
-  margin: 0;
+  margin: 80px 0px 0px;
   color: var(--primary-color);
   font-family: "Noto Sans", sans-serif;
+
 }
 
 .profile-details {
@@ -41,7 +41,7 @@
   font-weight: 500;
   line-height: 1.6;
   max-width: 450px;
-  margin: 20px auto;
+  margin: 20px auto 50px;
 }
 
 .profile-btn {

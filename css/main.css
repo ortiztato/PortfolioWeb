@@ -30,6 +30,10 @@ a {
   color: rgb(255, 213, 157);
 }
 
+section {
+  padding: 0px 15px 25px 15px;
+}
+
 .horizontal-padding {
   padding-left: 15px;
   padding-right: 15px;
@@ -46,6 +50,11 @@ br {
   margin: 10px 0;
 }
 
+
+/* .fill {
+  height: 45vh;
+} */
+
 @media (min-width: 950px) {
   body {
     background-image: linear-gradient(0deg,
@@ -54,6 +63,10 @@ br {
     /* background-size: cover; */
     background-repeat: repeat;
     background-size: 130%;
+  }
+
+  section {
+    padding: 0px 70px 70px 70px;
   }
 
   .horizontal-padding {
@@ -65,4 +78,8 @@ br {
     padding-top: 70px;
     padding-bottom: 70px;
   }
+
+  /*   .fill {
+    height: 200px;
+  } */
 }

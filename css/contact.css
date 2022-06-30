@@ -1,24 +1,23 @@
-.experiences {
+.contacts {
   display: flex;
   flex-direction: column;
+  min-height: 60vh;
+
+
 }
 
-.experiences-body h2 {
+.contact {
+  padding: 0px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-body h2 {
   margin-top: 80px;
 }
 
-.wave {
-  width: 100%;
-  position: relative;
-  top: 2px;
-}
 
-.wave_bottom {
-  transform: scaleY(-1);
-  top: -2px;
-}
-
-.experiences-title {
+.contact-title {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -26,62 +25,60 @@
   margin: 25px;
 }
 
-.experience-date {
+.contact-date {
   font-size: 25px;
   font-weight: bold;
   color: var(--secundary-color);
   margin-top: 30px;
 }
 
-.experience-company {
+.contact-company {
   font-size: 20px;
   text-transform: uppercase;
   margin-top: 10px;
 }
 
-.experience-position {
+.contact-position {
   font-weight: 300;
   font-size: 14x;
   margin-top: 20px;
 
 }
 
-.experience-description {
+.contact-description {
   font-weight: 400;
   font-size: 16px;
   margin-top: 10px;
   line-height: 1.6;
 }
 
-.experience {
-  padding: 0px;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 
 
 @media (min-width: 950px) {
-  .experiences-title {
+  .contact {
+    min-height: 45vh;
+  }
+
+  .contact-title {
     font-size: 35px;
     margin: 35px 0;
   }
 
-  .experience-date {
+  .contact-date {
     font-size: 30px;
   }
 
-  .experience-company {
+  .contact-company {
     font-size: 20px;
   }
 
-  .experience-position {
+  .contact-position {
     font-weight: bold;
     font-size: 16px;
     margin-top: 20px;
   }
 
-  .experience-description {
+  .contact-description {
     font-size: 16px;
     margin-top: 10px;
     line-height: 1.3;
