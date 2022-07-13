@@ -59,6 +59,18 @@
   margin: 0 auto;
 }
 
+.celpc {
+  display: flex;
+  justify-content: center;
+
+}
+
+.celpcimg {
+  width: 80%;
+  max-width: 300px;
+
+}
+
 
 
 @media (min-width: 950px) {
