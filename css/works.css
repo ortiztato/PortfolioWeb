@@ -28,7 +28,7 @@
 .works-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "uno""dos""tres""cuatro";
+  grid-template-areas: "uno""dos""tres""cuatro""cinco""seis";
 }
 
 .griditem1 {
@@ -46,6 +46,15 @@
 .griditem4 {
   grid-area: cuatro;
 }
+
+.griditem5 {
+  grid-area: cinco;
+}
+
+.griditem6 {
+  grid-area: seis;
+}
+
 
 
 .work {
@@ -107,7 +116,7 @@
   .works-grid {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    grid-template-areas: "uno dos""cuatro tres";
+    grid-template-areas: "uno dos""cuatro tres""cinco seis";
   }
 
   .works-title {
@@ -151,6 +160,17 @@
     grid-area: cuatro;
     display: flex;
     justify-content: right;
+  }
+
+  .griditem5 {
+
+    text-align: right;
+  }
+
+  .griditem6 {
+
+    display: flex;
+    justify-content: left;
   }
 
 
