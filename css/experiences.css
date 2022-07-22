@@ -31,7 +31,11 @@
   font-size: 20px;
   text-transform: uppercase;
   margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
 }
+
 
 .experience-position {
   font-weight: 300;
@@ -79,6 +83,9 @@
 
   .experience-company {
     font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
   }
 
   .experience-position {
