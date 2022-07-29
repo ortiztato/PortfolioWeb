@@ -30,6 +30,13 @@
   border-radius: 50%;
 }
 
+.logotype {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 24px;
+}
+
 /* Menu */
 .menu {
   display: flex;
@@ -78,12 +85,7 @@
   display: none;
 }
 
-.logotype {
-  display: flex;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 24px;
-}
+
 
 @media (max-width: 950px) {
 
