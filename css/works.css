@@ -28,7 +28,7 @@
 .works-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "uno""dos""tres""cuatro""cinco""seis";
+  grid-template-areas: "uno""dos""tres""cuatro""cinco""seis""siete""ocho";
 }
 
 .griditem1 {
@@ -53,6 +53,14 @@
 
 .griditem6 {
   grid-area: seis;
+}
+
+.griditem7 {
+  grid-area: siete;
+}
+
+.griditem8 {
+  grid-area: ocho;
 }
 
 
@@ -116,7 +124,7 @@
   .works-grid {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    grid-template-areas: "uno dos""cuatro tres""cinco seis";
+    grid-template-areas: "uno dos""cuatro tres""cinco seis""ocho siete";
   }
 
   .works-title {
@@ -172,6 +180,13 @@
     display: flex;
     justify-content: left;
   }
+
+  .griditem8 {
+    display: flex;
+    justify-content: right;
+  }
+
+
 
 
 
