@@ -28,7 +28,7 @@
 .works-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "uno""dos""tres""cuatro""cinco""seis""siete""ocho";
+  grid-template-areas: "uno""dos""tres""cuatro""cinco""seis""siete""ocho""nueve""diez";
 }
 
 .griditem1 {
@@ -61,6 +61,14 @@
 
 .griditem8 {
   grid-area: ocho;
+}
+
+.griditem9 {
+  grid-area: nueve;
+}
+
+.griditem10 {
+  grid-area: diez;
 }
 
 
@@ -124,7 +132,7 @@
   .works-grid {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    grid-template-areas: "uno dos""cuatro tres""cinco seis""ocho siete";
+    grid-template-areas: "uno dos""cuatro tres""cinco seis""ocho siete""nueve diez";
   }
 
   .works-title {
@@ -184,6 +192,15 @@
   .griditem8 {
     display: flex;
     justify-content: right;
+  }
+
+  .griditem9 {
+    text-align: right;
+  }
+
+  .griditem10 {
+    display: flex;
+    justify-content: left;
   }
 
 
