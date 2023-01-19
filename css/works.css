@@ -1,3 +1,7 @@
+br {
+  margin: 0;
+}
+
 .works {
   display: flex;
   flex-direction: column;
@@ -28,7 +32,7 @@
 .works-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "uno""dos""tres""cuatro""cinco""seis""siete""ocho""nueve""diez";
+  grid-template-areas: "uno""dos""tres""cuatro""cinco""seis""siete""ocho""nueve""diez""once""doce";
 }
 
 .griditem1 {
@@ -69,6 +73,12 @@
 
 .griditem10 {
   grid-area: diez;
+}
+.griditem11 {
+  grid-area: once;
+}
+.griditem12 {
+  grid-area: doce;
 }
 
 
@@ -128,11 +138,14 @@
 
 
 @media (min-width: 950px) {
+  br {
+    margin: 0;
+  }
 
   .works-grid {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    grid-template-areas: "uno dos""cuatro tres""cinco seis""ocho siete""nueve diez";
+    grid-template-areas: "uno dos""cuatro tres""cinco seis""ocho siete""nueve diez""doce once";
   }
 
   .works-title {
@@ -167,7 +180,6 @@
   }
 
   .griditem2 {
-    grid-area: dos;
     display: flex;
     justify-content: left;
   }
@@ -201,6 +213,11 @@
   .griditem10 {
     display: flex;
     justify-content: left;
+  }
+
+  .griditem12 {
+    display: flex;
+    justify-content: right;
   }
 
 
