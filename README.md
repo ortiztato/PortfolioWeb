@@ -1,3 +1,3 @@
-# My own Portfolio
+# My own portfolio
 
-Just HTML, CSS, JS
+HTML, CSS, JS
