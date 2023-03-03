@@ -1,332 +1,452 @@
 <!DOCTYPE html>
 <html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Santiago Ortiz Basualdo | Full Stack Developer</title>
+		<meta
+			name="description"
+			content="Hi, I’m a Full Stack Developer located in Argentina, take a look at my Portfolio."
+		/>
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="https://ortiztato.github.io/PortfolioWeb/img/sicon.png"
+		/>
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/navbar.css" />
+		<link rel="stylesheet" href="css/profile.css" />
+		<link rel="stylesheet" href="css/skills.css" />
+		<link rel="stylesheet" href="css/experiences.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/contact.css" />
+		<link rel="stylesheet" href="css/works.css" />
+		<script defer src="js/app.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<meta
+			name="google-site-verification"
+			content="opLAuEEdOFc0ckxGTrhpAHq6redSJ99xWPmWShhbuRA"
+		/>
+	</head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Santiago Ortiz Basualdo | Full Stack Developer</title>
-  <meta name="description" content="Hi, I’m a Full Stack Developer located in Argentina, take a look at my Portfolio.">
-  <link rel="icon" type="image/x-icon" href="https://ortiztato.github.io/PortfolioWeb/img/sicon.png">
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/navbar.css" />
-  <link rel="stylesheet" href="css/profile.css" />
-  <link rel="stylesheet" href="css/skills.css" />
-  <link rel="stylesheet" href="css/experiences.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/contact.css">
-  <link rel="stylesheet" href="css/works.css">
-  <script defer src="js/app.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <meta name="google-site-verification" content="opLAuEEdOFc0ckxGTrhpAHq6redSJ99xWPmWShhbuRA" />
-</head>
+	<body>
+		<header class="topheader">
+			<nav class="topnav">
+				<a href="#" class="logo">
+					<!-- <img height="50" width="50" src="img/youtube-picture.png" alt="programadorr" /> -->
+					<div class="logotype">SOB<br /></div>
+				</a>
+				<button class="open-menu" aria-label="Abrir menú">
+					<img height="30px" src="img/hamburger-icon.svg" alt="abrir menú" />
+				</button>
+				<ul class="menu">
+					<button class="close-menu" aria-label="Cerrar menú">
+						<img src="img/close-icon.svg" alt="cerrar menú" />
+					</button>
+					<li><a href="#profile" id="aboutbtn">About</a></li>
+					<li><a href="#myskills" id="skillsbtn">My Skills</a></li>
+					<li><a href="#mywork" id="workbtn">Work</a></li>
+					<li><a href="#contact" id="contactbtn">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
 
-<body>
-  <header class="topheader">
-    <nav class="topnav">
-      <a href="#" class="logo">
-        <!-- <img height="50" width="50" src="img/youtube-picture.png" alt="programadorr" /> -->
-        <div class="logotype">
-          SOB<br />
-        </div>
-      </a>
-      <button class="open-menu" aria-label="Abrir menú">
-        <img height="30px" src="img/hamburger-icon.svg" alt="abrir menú" />
-      </button>
-      <ul class="menu">
-        <button class="close-menu" aria-label="Cerrar menú">
-          <img src="img/close-icon.svg" alt="cerrar menú" />
-        </button>
-        <li><a href="#profile" id="aboutbtn">About</a></li>
-        <li><a href="#myskills" id="skillsbtn">My Skills</a></li>
-        <li><a href="#mywork" id="workbtn">Work</a></li>
-        <li><a href="#contact" id="contactbtn">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+		<a name="profile"></a>
+		<section class="profile">
+			<div class="profile-info">
+				<h1 class="profile-title">
+					Hi, I am <br />Santiago <br />
+					Ortiz Basualdo
+				</h1>
+				<p class="profile-details">
+					I’m a Full Stack Developer located in Argentina. <br />
+					Mechanical engineer turned web developer with a self-taught profile.
+					<br />
+					Well-organized person, problem solver, with high attention to
+					detail.<br />
+					Interested in developing as a professional, working on ambitious
+					projects with positive people.
 
-  <a name="profile"></a>
-  <section class="profile">
+					<br />
+					Visit my
+					<a
+						href="https://www.linkedin.com/in/santiago-ortiz-basualdo-644a87168/"
+						class="somethingspecial"
+						target="_blank"
+						>Linkedin profile</a
+					>
+					for more details or just
+					<a href="#contact" class="somethingspecial">contact me</a>
+					<br />
+					See my code on
+					<a
+						href="https://github.com/ortiztato/"
+						class="somethingspecial"
+						target="_blank"
+						>Github</a
+					>
+				</p>
+			</div>
+			<span class="profile-img-section">
+				<img
+					class="profile-img"
+					src="img/professional-profile.png"
+					alt="programador"
+				/>
+				<!-- <div class="profile-img-line"></div> -->
+			</span>
+		</section>
 
-    <div class="profile-info">
-      <h1 class="profile-title">Hi, I am <br>Santiago <br> Ortiz Basualdo</h1>
-      <p class="profile-details">
-        I’m a Full Stack Developer located in Argentina. <br>
-        Mechanical engineer turned web developer with a self-taught profile. <br>
-        Well-organized person, problem solver, with high attention to detail.<br>
-        Interested in developing as a professional, working on ambitious projects with positive people.
+		<a name="myskills"></a>
 
-        <br />
-        Visit my
-        <a href="https://www.linkedin.com/in/santiago-ortiz-basualdo-644a87168/" class="somethingspecial"
-          target="_blank">Linkedin
-          profile</a> for more details or just
-        <a href="#contact" class="somethingspecial">contact me</a>
-        <br /> See my code on
-        <a href="https://github.com/ortiztato/" class="somethingspecial" target="_blank">Github</a>
+		<section class="skills">
+			<h2 class="skills-title">My Skills</h2>
 
-      </p>
-    </div>
-    <span class="profile-img-section">
-      <img class="profile-img" src="img/professional-profile.png" alt="programador" />
-      <!-- <div class="profile-img-line"></div> -->
-    </span>
+			<ul class="skills-list">
+				<li class="skills-skill">React.js</li>
+				<li class="skills-skill">Node.js</li>
+				<li class="skills-skill">JavaScript</li>
+				<li class="skills-skill">TypeScript</li>
+				<li class="skills-skill">CSS</li>
+				<li class="skills-skill">Tailwind</li>
+				<li class="skills-skill">Django</li>
+				<li class="skills-skill">Git</li>
+				<li class="skills-skill">Digital Ocean Web Services</li>
+				<li class="skills-skill">Photoshop</li>
+				<li class="skills-skill">Arduino</li>
+			</ul>
+			<div class="experiences-body">
+				<h2 class="experiences-title">Courses</h2>
+				<div class="experiences-grid">
+					<div class="experience">
+						<div class="experience-date">Backend with Node.js <br /></div>
+						<div class="experience-company">
+							<img
+								src="img/platzi.webp"
+								alt="platzi"
+								height="28px"
+								style="margin-right: 5px"
+							/>
+						</div>
+						<div class="experience-description">
+							Specialize in JavaScript with Node.js to build high-speed backend
+							projects using advanced tools to scale and monitor web
+							applications. <br />
+							Databases with PostgreSQL and MongoDB.
+						</div>
+						<div class="experience-position">
+							<a
+								href="https://platzi.com/web-node/?school=_escuela_escuela-web_"
+								target="_blank"
+								>https://platzi.com/web-node/?school=_escuela_escuela-web_</a
+							>
+						</div>
+					</div>
+					<div class="experience">
+						<div class="experience-date">
+							React - The Complete Guide <br />(incl Hooks, React Router, Redux)
+						</div>
+						<div class="experience-company">
+							<img
+								src="img/cudemy.png"
+								alt="udemy"
+								height="28px"
+								style="margin-right: 5px"
+							/>
+							Udemy
+						</div>
+						<div class="experience-description">
+							Dive in and learn React.js from scratch! Learn Reactjs, Hooks,
+							Redux, React Routing, Animations, Next.js and more. <br />
+							Build powerful, fast, user-friendly and reactive web apps. <br />
+							Provide amazing user experiences by leveraging the power of
+							JavaScript with ease.
+						</div>
+						<div class="experience-position">
+							<a
+								href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+								target="_blank"
+								>https://www.udemy.com/course/react-the-complete-guide-incl-redux/</a
+							>
+						</div>
+					</div>
+					<div class="experience">
+						<div class="experience-date">
+							Django 4 Masterclass 2022: From Development To Deployment
+						</div>
+						<div class="experience-company">
+							<img
+								src="img/cudemy.png"
+								alt="udemy"
+								height="28px"
+								style="margin-right: 5px"
+							/>
+							Udemy
+						</div>
+						<div class="experience-description">
+							Learn Django from scratch, build & deploy Django apps with
+							advanced features like authentication & payment integration.
+						</div>
+						<div class="experience-position">
+							<a
+								target="_blank"
+								href="https://www.udemy.com/course/django-4/learn/lecture/31586832?start=135#overview"
+								>https://www.udemy.com/course/django-4/</a
+							>
+						</div>
+					</div>
 
-  </section>
+					<div class="experience">
+						<div class="experience-date">
+							CS50’s Web Programming with Python and JavaScript
+						</div>
+						<div class="experience-company">
+							<img
+								src="img/harvard.png"
+								alt="harvard"
+								height="28px"
+								style="margin-right: 8px"
+							/>
+							Harvard Extension School
+						</div>
+						<div class="experience-description">
+							Diving more deeply into the design and implementation of web apps
+							with Python, JavaScript, and SQL using frameworks like Django,
+							React, and Bootstrap. <br />Topics include database design,
+							scalability, security, and user experience. <br />Through hands-on
+							projects, learn to write and use APIs, create interactive UIs, and
+							leverage cloud services like GitHub and Heroku.
+						</div>
+						<div class="experience-position">
+							<a href="https://cs50.harvard.edu/web/2020/" target="_blank"
+								>https://cs50.harvard.edu/web/2020/</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-  <a name="myskills"></a>
+		<a name="mywork"></a>
 
+		<section class="works">
+			<div class="works-body">
+				<h2 class="works-title">Work</h2>
+				<div class="works-grid">
+					<div class="work griditem1">
+						<div class="work-date">World Cup 2022</div>
+						<div class="work-company">Online Betting Platform</div>
+						<div class="work-description">
+							Play to hit the results of the Football World Cup <br />
+							Compete with your friends by putting together groups <br />
+							Developed with React.js and Node.js on MongoDB
+						</div>
+						<div class="work-position">
+							<a
+								href="https://prode-react-5spfp.ondigitalocean.app/"
+								target="_blank"
+							>
+								https://prode-react.ondigitalocean.app/portada</a
+							>
+						</div>
+					</div>
 
-  <section class="skills">
+					<div class="celpc griditem2">
+						<a
+							href="https://prode-react-5spfp.ondigitalocean.app/"
+							target="_blank"
+							class="acombo"
+						>
+							<img class="celpcimg" src="img/comboprode.png" alt="prodecombo"
+						/></a>
+					</div>
 
-    <h2 class="skills-title">My Skills</h2>
+					<div class="work griditem3">
+						<div class="work-date">Caruchef</div>
+						<div class="work-company">Gourmet Catering</div>
+						<div class="work-description">
+							Static page for gourmet catering business <br />
+							HTML, JS, CSS
+						</div>
+						<div class="work-position">
+							<a href="https://caruchef.com.ar" target="_blank">
+								https://caruchef.com.ar/</a
+							>
+						</div>
+					</div>
+					<div class="celpc griditem4">
+						<a href="https://caruchef.com.ar" target="_blank" class="acombo">
+							<img class="celpcimg" src="img/ccarucombo.png" alt="carucombo"
+						/></a>
+					</div>
 
-    <ul class="skills-list">
-      <li class="skills-skill">React.js</li>
-      <li class="skills-skill">Node.js</li>
-      <li class="skills-skill">JavaScript</li>
-      <li class="skills-skill">CSS</li>
-      <li class="skills-skill">Tailwind</li>
-      <li class="skills-skill">Django</li>
-      <li class="skills-skill">Git</li>
-      <li class="skills-skill">Digital Ocean Web Services</li>
-      <li class="skills-skill">Photoshop</li>
-      <li class="skills-skill">Arduino</li>
-    </ul>
-    <div class="experiences-body">
-      <h2 class="experiences-title">Courses</h2>
-      <div class="experiences-grid">
-        <div class="experience">
-          <div class="experience-date">Backend with Node.js <br/>
-          </div>
-          <div class="experience-company">
-            <img src="img/platzi.webp" alt="platzi" height="28px" style="margin-right: 5px;">
-          </div>
-          <div class="experience-description">
-            Specialize in JavaScript with Node.js to build high-speed backend projects using advanced tools to scale and monitor web applications. <br>
-            Databases with PostgreSQL and MongoDB.
-          </div>
-          <div class="experience-position"><a href="https://platzi.com/web-node/?school=_escuela_escuela-web_"
-              target="_blank">https://platzi.com/web-node/?school=_escuela_escuela-web_</a>
-          </div>
+					<div class="work griditem5">
+						<div class="work-date">Procnost</div>
+						<div class="work-company">Tools Marketer</div>
+						<div class="work-description">
+							Static page for tools seller business <br />
+							HTML, JS, CSS
+						</div>
+						<div class="work-position">
+							<a href="https://procnost.com.ar" target="_blank">
+								https://procnost.com.ar/</a
+							>
+						</div>
+					</div>
+					<div class="celpc griditem6">
+						<a href="https://procnost.com.ar" target="_blank" class="acombo"
+							><img
+								class="celpcimg"
+								src="img/ccomboprocnost.png"
+								alt="proccombo"
+						/></a>
+					</div>
 
-        </div>
-        <div class="experience">
-          <div class="experience-date">React - The Complete Guide <br/>(incl Hooks, React Router, Redux)
-          </div>
-          <div class="experience-company">
-            <img src="img/cudemy.png" alt="udemy" height="28px" style="margin-right: 5px;">
-            Udemy
-          </div>
-          <div class="experience-description">
-            Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and more. <br/>
-            Build powerful, fast, user-friendly and reactive web apps. <br/> Provide amazing user experiences by leveraging the power of JavaScript with ease.
-          </div>
-          <div class="experience-position"><a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
-              target="_blank">https://www.udemy.com/course/react-the-complete-guide-incl-redux/</a>
-          </div>
+					<div class="work griditem7">
+						<div class="work-date">Estudio V&L</div>
+						<div class="work-company">Law Firm</div>
+						<div class="work-description">
+							Static page for law firm <br />
+							HTML, JS, CSS
+						</div>
+						<div class="work-position">
+							<a href="https://varelaledesma.com/" target="_blank">
+								https://varelaledesma.com.ar/</a
+							>
+						</div>
+					</div>
+					<div class="celpc griditem8">
+						<a href="https://varelaledesma.com/" target="_blank" class="acombo"
+							><img
+								class="celpcimg"
+								src="img/cestudiovlcombo.png"
+								alt="estudiovlcombo"
+						/></a>
+					</div>
 
-        </div>
-        <div class="experience">
-          <div class="experience-date">Django 4 Masterclass 2022: From Development To Deployment
-          </div>
-          <div class="experience-company">
-            <img src="img/cudemy.png" alt="udemy" height="28px" style="margin-right: 5px;">
-            Udemy
-          </div>
-          <div class="experience-description">
-            Learn Django from scratch, build & deploy Django apps with advanced features like authentication & payment
-            integration.
-          </div>
-          <div class="experience-position">
-            <a target="_blank"
-              href="https://www.udemy.com/course/django-4/learn/lecture/31586832?start=135#overview">https://www.udemy.com/course/django-4/</a>
-          </div>
+					<div class="work griditem9">
+						<div class="work-date">eCommerce</div>
+						<div class="work-company">Course Practice Project</div>
+						<div class="work-description">
+							eBay-like e-commerce auction site that allow users to post auction
+							listings, place bids on listings, comment on those listings, and
+							add listings to a “watchlist.” <br />
+							Developed with Django, HTML, CSS, JS
+						</div>
+						<div class="work-position">
+							<a
+								href="https://ecommerceapp-x4tss.ondigitalocean.app/"
+								target="_blank"
+							>
+								https://ecommerceapp-ondigitalocean.app/</a
+							>
+						</div>
+					</div>
+					<div class="celpc griditem10">
+						<a
+							href="https://ecommerceapp-x4tss.ondigitalocean.app/"
+							target="_blank"
+							class="acombo"
+							><img class="celpcimg" src="img/cecommcombo.png" alt="ecommcombo"
+						/></a>
+					</div>
 
-        </div>
+					<div class="work griditem11">
+						<div class="work-date">Network</div>
+						<div class="work-company">Course Practice Project</div>
+						<div class="work-description">
+							Twitter-like social network website for making posts and following
+							users. <br />
+							Developed with Django, HTML, CSS, JS
+						</div>
+						<div class="work-position">
+							<a href="https://www.network-demo.com/" target="_blank"
+								>https://www.network-demo.com/</a
+							>
+						</div>
+					</div>
+					<div class="celpc griditem12">
+						<a
+							href="https://www.network-demo.com/"
+							target="_blank"
+							class="acombo"
+							><img class="celpcimg" src="img/cnetcombo.png" alt="ecommcombo"
+						/></a>
+					</div>
+				</div>
+			</div>
+		</section>
 
-        <div class="experience">
-          <div class="experience-date">CS50’s Web Programming with Python and JavaScript</div>
-          <div class="experience-company">
-            <img src="img/harvard.png" alt="harvard" height="28px" style="margin-right: 8px;">
-            Harvard Extension School
-          </div>
-          <div class="experience-description">
-            Diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using
-            frameworks like Django, React, and Bootstrap. <br />Topics include database design, scalability, security,
-            and
-            user experience. <br />Through hands-on projects, learn to write and use APIs, create interactive UIs, and
-            leverage cloud services like GitHub and Heroku.
-          </div>
-          <div class="experience-position"><a href="https://cs50.harvard.edu/web/2020/"
-              target="_blank">https://cs50.harvard.edu/web/2020/</a>
-          </div>
+		<a name="contact"></a>
 
-      </div>
-    </div>
-  </section>
-  <a name="mywork"></a>
+		<section class="contacts">
+			<div class="contact-body">
+				<h2 class="contact-title">Contact Me</h2>
+				<div class="contact-grid">
+					<div class="contact">
+						<!-- <div class="experience-date">Contact</div> -->
+						<div class="contact-company">Contact</div>
+						<div class="contact-description">
+							<a href="mailto:ortiztato@gmail.com"
+								><svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-envelope"
+									viewBox="0 0 16 16"
+								>
+									<path
+										d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+									/>
+								</svg>
+								<div class="contacttext">ortiztato@gmail.com</div> </a
+							><br />
+							<a href="https://wa.me/+5491140937510"
+								><svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-whatsapp"
+									viewBox="0 0 16 16"
+								>
+									<path
+										d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+									/></svg
+								><span class="contacttext"> WhatsApp +5491140937510 </span></a
+							><br />
+							<a
+								href="https://www.linkedin.com/in/santiago-ortiz-basualdo-644a87168/"
+								target="_blank"
+								><svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-linkedin"
+									viewBox="0 0 16 16"
+								>
+									<path
+										d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+									/>
+								</svg>
+								<div class="contacttext">Santiago Ortiz Basualdo</div>
+							</a>
+						</div>
 
-  <section class="works">
+						<div class="fill"></div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <div class="works-body">
-      <h2 class="works-title">Work</h2>
-      <div class="works-grid">
-
-        <div class="work griditem1">
-          <div class="work-date">World Cup 2022</div>
-          <div class="work-company">Online Betting Platform</div>
-          <div class="work-description">
-          Play to hit the results of the Football World Cup <br> Compete with your friends by putting together groups <br>
-          Developed with React.js and Node.js on MongoDB 
-          </div>
-          <div class="work-position">
-            <a href="https://prode-react-5spfp.ondigitalocean.app/" target="_blank">
-              https://prode-react.ondigitalocean.app/portada</a>
-          </div>
-        </div>
-
-        <div class="celpc griditem2"><a href="https://prode-react-5spfp.ondigitalocean.app/" target="_blank" class="acombo">
-          <img class="celpcimg" src="img/comboprode.png" alt="prodecombo" /></a>
-        </div>
-
-        <div class="work griditem3">
-          <div class="work-date">Caruchef</div>
-          <div class="work-company">Gourmet Catering</div>
-          <div class="work-description">
-            Static page for gourmet catering business <br>
-            HTML, JS, CSS
-          </div>
-          <div class="work-position">
-            <a href="https://caruchef.com.ar" target="_blank">
-              https://caruchef.com.ar/</a>
-          </div>
-
-        </div>
-        <div class="celpc griditem4"><a href="https://caruchef.com.ar" target="_blank" class="acombo">
-            <img class="celpcimg" src="img/ccarucombo.png" alt="carucombo" /></a>
-        </div>
-
-        <div class="work griditem5">
-          <div class="work-date">Procnost</div>
-          <div class="work-company">Tools Marketer</div>
-          <div class="work-description">
-            Static page for tools seller business <br>
-            HTML, JS, CSS
-          </div>
-          <div class="work-position">
-            <a href="https://procnost.com.ar" target="_blank">
-              https://procnost.com.ar/</a>
-          </div>
-
-        </div>
-        <div class="celpc griditem6"><a href="https://procnost.com.ar" target="_blank" class="acombo"><img
-              class="celpcimg" src="img/ccomboprocnost.png" alt="proccombo" /></a>
-        </div>
-
-        <div class="work griditem7">
-          <div class="work-date">Estudio V&L</div>
-          <div class="work-company">Law Firm</div>
-          <div class="work-description">
-            Static page for law firm <br>
-            HTML, JS, CSS
-          </div>
-          <div class="work-position">
-            <a href="https://varelaledesma.com/" target="_blank">
-              https://varelaledesma.com.ar/</a>
-          </div>
-
-        </div>
-        <div class="celpc griditem8"><a href="https://varelaledesma.com/" target="_blank" class="acombo"><img
-              class="celpcimg" src="img/cestudiovlcombo.png" alt="estudiovlcombo" /></a>
-        </div>
-
-        <div class="work griditem9">
-          <div class="work-date">eCommerce</div>
-          <div class="work-company">Course Practice Project</div>
-          <div class="work-description">
-            eBay-like e-commerce auction site that allow users to post auction listings, place bids on listings,
-            comment on those listings, and add listings to a “watchlist.” <br>
-            Developed with Django, HTML, CSS, JS
-          </div>
-          <div class="work-position">
-            <a href="https://ecommerceapp-x4tss.ondigitalocean.app/" target="_blank">
-              https://ecommerceapp-ondigitalocean.app/</a>
-          </div>
-
-        </div>
-        <div class="celpc griditem10"><a href="https://ecommerceapp-x4tss.ondigitalocean.app/" target="_blank"
-            class="acombo"><img class="celpcimg" src="img/cecommcombo.png" alt="ecommcombo" /></a>
-        </div>
-
-        <div class="work griditem11">
-          <div class="work-date">Network</div>
-          <div class="work-company">Course Practice Project</div>
-          <div class="work-description">
-            Twitter-like social network website for making posts and following users. <br>
-            Developed with Django, HTML, CSS, JS
-          </div>
-          <div class="work-position">
-            <a href="https://www.network-demo.com/" target="_blank">https://www.network-demo.com/</a>
-          </div>
-
-        </div>
-        <div class="celpc griditem12"><a href="https://www.network-demo.com/" target="_blank" class="acombo"><img
-              class="celpcimg" src="img/cnetcombo.png" alt="ecommcombo" /></a>
-
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-  <a name="contact"></a>
-
-  <section class="contacts">
-
-    <div class="contact-body">
-      <h2 class="contact-title">Contact Me</h2>
-      <div class="contact-grid">
-        <div class="contact">
-          <!-- <div class="experience-date">Contact</div> -->
-          <div class="contact-company">Contact</div>
-          <div class="contact-description">
-            <a href="mailto:ortiztato@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                <path
-                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
-              </svg>
-              <div class="contacttext"> ortiztato@gmail.com </div>
-            </a><br>
-            <a href="https://wa.me/+5491140937510"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                <path
-                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
-              </svg><span class="contacttext"> WhatsApp +5491140937510 </span></a><br>
-            <a href="https://www.linkedin.com/in/santiago-ortiz-basualdo-644a87168/" target="_blank"><svg
-                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
-                viewBox="0 0 16 16">
-                <path
-                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-              </svg>
-              <div class="contacttext"> Santiago Ortiz Basualdo </div>
-            </a>
-          </div>
-
-          <div class="fill"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer id="footer">
-    <div class="container">
-      <p>&copy; Santiago Ortiz Basualdo</p>
-    </div>
-  </footer>
-
-</body>
-
+		<footer id="footer">
+			<div class="container">
+				<p>&copy; Santiago Ortiz Basualdo</p>
+			</div>
+		</footer>
+	</body>
 </html>
