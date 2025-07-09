@@ -67,6 +67,12 @@
   color: var(--textcolor)
 }
 
+.contact-description>a:hover {
+  color: var(--textcolor);
+  filter: brightness(0.8);
+  /* font-weight: bold; */
+}
+
 
 @media (min-width: 950px) {
   .contact {

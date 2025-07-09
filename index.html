@@ -1,18 +1,49 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Santiago Ortiz Basualdo | Full Stack Developer</title>
+		<title>Santiago Ortiz Basualdo | Full Stack Developer | Portfolio</title>
 		<meta
 			name="description"
-			content="Hi, I'm a Full Stack Developer located in Argentina, take a look at my Portfolio."
+			content="Portfolio of Santiago Ortiz Basualdo, Full Stack Developer in Argentina. Mechanical engineer turned web developer. Projects, skills, and contact information."
 		/>
-		<link
-			rel="icon"
-			type="image/x-icon"
-			href="https://ortiztato.github.io/PortfolioWeb/img/sicon.png"
+		<!-- SEO: Canonical URL -->
+		<link rel="canonical" href="https://ortiztato.github.io/PortfolioWeb/" />
+		<!-- SEO: Favicon local -->
+		<link rel="icon" type="image/png" href="img/sicon.png" />
+		<!-- SEO: Open Graph -->
+		<meta
+			property="og:title"
+			content="Santiago Ortiz Basualdo | Full Stack Developer | Portfolio"
+		/>
+		<meta
+			property="og:description"
+			content="Portfolio of Santiago Ortiz Basualdo, Full Stack Developer in Argentina. Projects, skills, and contact information."
+		/>
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:url"
+			content="https://ortiztato.github.io/PortfolioWeb/"
+		/>
+		<meta
+			property="og:image"
+			content="https://ortiztato.github.io/PortfolioWeb/img/professional-profile.png"
+		/>
+		<!-- SEO: Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta
+			name="twitter:title"
+			content="Santiago Ortiz Basualdo | Full Stack Developer Portfolio Argentina"
+		/>
+		<meta
+			name="twitter:description"
+			content="Portfolio of Santiago Ortiz Basualdo, Full Stack Developer in Argentina. Projects, skills, and contact information."
+		/>
+		<meta
+			name="twitter:image"
+			content="https://ortiztato.github.io/PortfolioWeb/img/professional-profile.png"
 		/>
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="css/navbar.css" />
@@ -33,21 +64,28 @@
 
 	<body>
 		<header class="topheader">
-			<nav class="topnav">
+			<nav class="topnav" role="navigation">
+				<!-- Mejora accesibilidad -->
 				<a href="#" class="logo">
 					<!-- <img height="50" width="50" src="img/youtube-picture.png" alt="programadorr" /> -->
 					<div class="logotype">SOB<br /></div>
 				</a>
 				<button class="open-menu" aria-label="Abrir menú">
-					<img height="30px" src="img/hamburger-icon.svg" alt="abrir menú" />
+					<img
+						height="30px"
+						src="img/hamburger-icon.svg"
+						alt="abrir menú"
+						loading="lazy"
+					/>
 				</button>
 				<ul class="menu">
 					<button class="close-menu" aria-label="Cerrar menú">
-						<img src="img/close-icon.svg" alt="cerrar menú" />
+						<img src="img/close-icon.svg" alt="cerrar menú" loading="lazy" />
 					</button>
 					<li><a href="#profile" id="aboutbtn">About</a></li>
 					<li><a href="#myskills" id="skillsbtn">My Skills</a></li>
 					<li><a href="#mywork" id="workbtn">Work</a></li>
+					<li><a href="#courses" id="coursesbtn">Courses</a></li>
 					<li><a href="#contact" id="contactbtn">Contact</a></li>
 				</ul>
 			</nav>
@@ -61,13 +99,17 @@
 					Ortiz Basualdo
 				</h1>
 				<p class="profile-details">
-					I'm a Full Stack Developer located in Argentina. <br />
-					Mechanical engineer turned web developer with a self-taught profile.
+					I’m a Full Stack Developer based in Argentina with a background in Mechanical Engineering.
 					<br />
-					Well-organized person, problem solver, with high attention to
-					detail.<br />
-					Interested in developing as a professional, working on ambitious
-					projects with positive people.
+
+					<br />
+					After transitioning into web development as a self-taught professional, I bring a strong foundation in problem-solving, organization, and flexibility.
+					<br />
+					I thrive in dynamic, collaborative environments and am passionate about building ambitious projects with positive, driven teams
+					<br />
+					I enhance my skills by leveraging artificial intelligence.
+					<br />
+
 
 					<br />
 					Visit my
@@ -75,6 +117,7 @@
 						href="https://www.linkedin.com/in/santiago-ortiz-basualdo-644a87168/"
 						class="somethingspecial"
 						target="_blank"
+						rel="noopener noreferrer"
 						>Linkedin profile</a
 					>
 					for more details or just
@@ -85,6 +128,7 @@
 						href="https://github.com/ortiztato/"
 						class="somethingspecial"
 						target="_blank"
+						rel="noopener noreferrer"
 						>Github</a
 					>
 				</p>
@@ -93,41 +137,353 @@
 				<img
 					class="profile-img"
 					src="img/professional-profile.png"
-					alt="programador"
+					alt="Santiago Ortiz Basualdo professional profile photo"
+					loading="lazy"
 				/>
-				<!-- <div class="profile-img-line"></div> -->
 			</span>
 		</section>
 
 		<a name="myskills"></a>
-
 		<section class="skills">
-			<h2 class="skills-title">My Skills</h2>
+		<h2 class="skills-title">My Skills</h2>
 
 			<ul class="skills-list">
 				<li class="skills-skill">React.js</li>
 				<li class="skills-skill">Node.js</li>
-				<li class="skills-skill">JavaScript</li>
+				<li class="skills-skill">Next.js</li>
 				<li class="skills-skill">TypeScript</li>
+				<li class="skills-skill">Liquid</li>
 				<li class="skills-skill">CSS</li>
 				<li class="skills-skill">Tailwind</li>
-				<li class="skills-skill">Django</li>
-				<li class="skills-skill">Git</li>
 				<li class="skills-skill">Digital Ocean Web Services</li>
-				<li class="skills-skill">Photoshop</li>
-				<li class="skills-skill">Arduino</li>
 			</ul>
+		</section>
+
+
+		<a name="mywork"></a>
+
+		<section class="works">
+			<div class="works-body">
+				<h2 class="skills-title">Work</h2>
+				<div class="works-grid">
+
+					<div class="work-grid-container ">
+						<div class="work " >
+							<div class="work-date">Stars & Honey</div>
+							<div class="work-company">Shopify Headless Storefront</div>
+							<div class="work-description">
+								A fully headless Shopify storefront using React.js, decoupling the front-end from Shopify’s Liquid themes to enable a highly customized, fast, and scalable e-commerce experience. The implementation included built-in A/B testing tools to experiment with layouts, messaging, and conversion flows for continuous UX optimization
+							</div>
+							<div class="work-position">
+								<a
+									href="https://starsandhoney.com/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+								https://starsandhoney.com/</a
+								>
+							</div>
+						</div>
+	
+						<div class="celpc">
+							<a
+								href="https://starsandhoney.com/"
+								target="_blank"
+								class="acombo"
+								rel="noopener noreferrer"
+							>
+								<img
+									class="celpcimg"
+									src="img/combostars.png"
+									alt="Screenshot of Stars & Honey Shopify storefront"
+									loading="lazy"
+								/>
+							</a>
+						</div>
+					</div>
+
+					<div class="work-grid-container flowReverse">
+						<div class="work">
+							<div class="work-date">Gymkhana</div>
+							<div class="work-company">Custom Shopify Theme Development</div>
+							<div class="work-description">
+								Developed a fully customized Shopify theme by editing the codebase in Liquid, SCSS, and JavaScript. The work included advanced metafield logic, tailored sections, and UX improvements across the site.
+							</div>
+							<div class="work-position">
+								<a
+									href="https://www.gymkhanafinefoods.com/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									https://www.gymkhanafinefoods.com/</a
+								>
+							</div>
+						</div>
+						<div class="celpc">
+							<a
+								href="https://www.gymkhanafinefoods.com/"
+								target="_blank"
+								class="acombo"
+								rel="noopener noreferrer"
+								><img
+									class="celpcimg"
+									src="img/combogymkhana.png"
+									alt="Screenshot of Gymkhana Shopify storefront"
+									loading="lazy"
+							/></a>
+						</div>
+					</div>
+
+					<div class="work-grid-container">
+						<div class="work">
+							<div class="work-date">Grand Splendid</div>
+							<div class="work-company">Custom Shopify Theme Development</div>
+							<div class="work-description">
+								Built a custom Shopify theme from the ground up using Liquid, SCSS, and JavaScript. Focused on implementing dynamic content via metafields, custom sections for flexible content management
+							</div>
+							<div class="work-position">
+								<a
+									href="https://grandsplendid.com/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									https://grandsplendid.com/</a
+								>
+							</div>
+						</div>
+						<div class="celpc">
+							<a
+								href="https://grandsplendid.com/"
+								target="_blank"
+								class="acombo"
+								rel="noopener noreferrer"
+								><img
+									class="celpcimg"
+									src="img/combograndsplendid.png"
+									alt="Screenshot of Grand Splendid Shopify storefront"
+									loading="lazy"
+							/></a>
+						</div>
+					</div>
+
+
+					<div class="work-grid-container flowReverse">
+						<div class="work">
+							<div class="work-date">Undefined</div>
+							<div class="work-company">Custom Tiendanube Theme Development</div>
+							<div class="work-description">
+								Enhanced an existing Tiendanube theme by implementing custom layout adjustments, styling improvements, and JavaScript features. Focused on improving product page UX, mobile responsiveness, and adding flexible content sections for better store management.
+							</div>
+							<div class="work-position">
+								<a
+									href="https://undefinedba.com/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									https://undefinedba.com/</a
+								>
+							</div>
+						</div>
+						<div class="celpc">
+							<a
+								href="https://undefinedba.com/"
+								target="_blank"
+								class="acombo"
+								rel="noopener noreferrer"
+								><img
+									class="celpcimg"
+									src="img/comboundefined.png"
+									alt="Screenshot of Undefined Shopify storefront"
+									loading="lazy"
+							/></a>
+						</div>
+					</div>
+					
+					<div class="work-grid-container ">
+					<div class="work">
+						<div class="work-date">World Cup 2022</div>
+						<div class="work-company">Online Betting Platform</div>
+						<div class="work-description">
+							Play to hit the results of the Football World Cup <br />
+							Compete with your friends by putting together groups <br />
+							Developed with React.js and Node.js on MongoDB
+						</div>
+						<div class="work-position">
+							<a
+								href="https://prode-react-5spfp.ondigitalocean.app/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								https://prode-react.ondigitalocean.app/portada</a
+							>
+						</div>
+					</div>
+
+					<div class="celpc">
+						<a
+							href="https://prode-react-5spfp.ondigitalocean.app/"
+							target="_blank"
+							class="acombo"
+							rel="noopener noreferrer"
+						>
+							<img
+								class="celpcimg"
+								src="img/comboprode.png"
+								alt="Screenshot of World Cup 2022 betting platform"
+								loading="lazy"
+							/>
+						</a>
+					</div>
+				</div>
+
+				<div class="work-grid-container flowReverse">
+					<div class="work">
+						<div class="work-date">Estudio V&L</div>
+						<div class="work-company">Law Firm</div>
+						<div class="work-description">
+							Static page for law firm <br />
+							HTML, JS, CSS
+						</div>
+						<div class="work-position">
+							<a
+								href="https://varelaledesma.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								https://varelaledesma.com.ar/</a
+							>
+						</div>
+					</div>
+					<div class="celpc">
+						<a
+							href="https://varelaledesma.com/"
+							target="_blank"
+							class="acombo"
+							rel="noopener noreferrer"
+							><img
+								class="celpcimg"
+								src="img/cestudiovlcombo.png"
+								alt="Screenshot of Estudio V&L law firm website"
+								loading="lazy"
+						/></a>
+					</div>
+				</div>
+
+				<div class="work-grid-container ">
+					<div class="work">
+						<div class="work-date">Phenix Oil</div>
+						<div class="work-company">Oil and Gas Company</div>
+						<div class="work-description">
+							Static page for oil and gas company <br />
+							HTML, JS, CSS
+						</div>
+						<div class="work-position">
+							<a
+								href="https://www.phenixoleo.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								https://www.phenixoleo.com/</a
+							>
+						</div>
+					</div>
+					<div class="celpc">
+						<a
+							href="https://www.phenixoleo.com/"
+							target="_blank"
+							class="acombo"
+							rel="noopener noreferrer"
+							><img
+								class="celpcimg"
+								src="img/combophnenix.png"
+								alt="Screenshot of Phenix Oil website"
+								loading="lazy"
+						/></a>
+					</div>
+				</div>
+
+				
+
+				<div class="work-grid-container flowReverse">
+					<div class="work">
+						<div class="work-date">Caruchef</div>
+						<div class="work-company">Gourmet Catering</div>
+						<div class="work-description">
+							Static page for gourmet catering business <br />
+							HTML, JS, CSS
+						</div>
+						<div class="work-position">
+							<a
+								href="https://caruchef.com.ar"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								https://caruchef.com.ar/</a
+							>
+						</div>
+					</div>
+					<div class="celpc">
+						<a
+							href="https://caruchef.com.ar"
+							target="_blank"
+							class="acombo"
+							rel="noopener noreferrer"
+						>
+							<img
+								class="celpcimg"
+								src="img/ccarucombo.png"
+								alt="Screenshot of Caruchef gourmet catering website"
+								loading="lazy"
+							/>
+						</a>
+					</div>
+				</div>
+
+		
+			</div>
+		</section>
+
+
+		<a name="courses"></a>
+
+		<section class="skills">
 			<div class="experiences-body">
-				<h2 class="experiences-title">Courses</h2>
+				<h2 class="skills-title">Courses</h2>
 				<div class="experiences-grid">
+					<div class="experience">
+						<div class="experience-date">Software Architecture & Design of Modern Large Scale Systems <br /></div>
+						<div class="experience-company">
+							<img
+								src="img/cudemy.png"
+								alt="Udemy logo"
+								height="28px"
+								style="margin-right: 5px"
+								loading="lazy"
+							/>
+							Udemy
+						</div>
+						<div class="experience-description">
+							Software Architect or Technical Lead by Mastering Software Architecture, System Design & Big Data Processing.
+						</div>
+						<div class="experience-position">
+							<a
+								href="https://www.udemy.com/course/software-architecture-design-of-modern-large-scale-systems/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+							https://www.udemy.com/course/software-architecture-design-of-modern-large-scale-systems/</a
+							>
+						</div>
+					</div>
 					<div class="experience">
 						<div class="experience-date">Backend with Node.js <br /></div>
 						<div class="experience-company">
 							<img
 								src="img/platzi.webp"
-								alt="platzi"
+								alt="Platzi logo"
 								height="28px"
 								style="margin-right: 5px"
+								loading="lazy"
 							/>
 						</div>
 						<div class="experience-description">
@@ -140,7 +496,9 @@
 							<a
 								href="https://platzi.com/web-node/?school=_escuela_escuela-web_"
 								target="_blank"
-								>https://platzi.com/web-node/?school=_escuela_escuela-web_</a
+								rel="noopener noreferrer"
+							>
+								https://platzi.com/web-node/?school=_escuela_escuela-web_</a
 							>
 						</div>
 					</div>
@@ -151,9 +509,10 @@
 						<div class="experience-company">
 							<img
 								src="img/cudemy.png"
-								alt="udemy"
+								alt="Udemy logo"
 								height="28px"
 								style="margin-right: 5px"
+								loading="lazy"
 							/>
 							Udemy
 						</div>
@@ -168,6 +527,7 @@
 							<a
 								href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
 								target="_blank"
+								rel="noopener noreferrer"
 								>https://www.udemy.com/course/react-the-complete-guide-incl-redux/</a
 							>
 						</div>
@@ -179,9 +539,10 @@
 						<div class="experience-company">
 							<img
 								src="img/cudemy.png"
-								alt="udemy"
+								alt="Udemy logo"
 								height="28px"
 								style="margin-right: 5px"
+								loading="lazy"
 							/>
 							Udemy
 						</div>
@@ -193,6 +554,7 @@
 							<a
 								target="_blank"
 								href="https://www.udemy.com/course/django-4/learn/lecture/31586832?start=135#overview"
+								rel="noopener noreferrer"
 								>https://www.udemy.com/course/django-4/</a
 							>
 						</div>
@@ -205,9 +567,10 @@
 						<div class="experience-company">
 							<img
 								src="img/harvard.png"
-								alt="harvard"
+								alt="Harvard Extension School logo"
 								height="28px"
 								style="margin-right: 8px"
+								loading="lazy"
 							/>
 							Harvard Extension School
 						</div>
@@ -220,7 +583,10 @@
 							leverage cloud services like GitHub and Heroku.
 						</div>
 						<div class="experience-position">
-							<a href="https://cs50.harvard.edu/web/2020/" target="_blank"
+							<a
+								href="https://cs50.harvard.edu/web/2020/"
+								target="_blank"
+								rel="noopener noreferrer"
 								>https://cs50.harvard.edu/web/2020/</a
 							>
 						</div>
@@ -229,155 +595,7 @@
 			</div>
 		</section>
 
-		<a name="mywork"></a>
-
-		<section class="works">
-			<div class="works-body">
-				<h2 class="works-title">Work</h2>
-				<div class="works-grid">
-					<div class="work griditem1">
-						<div class="work-date">World Cup 2022</div>
-						<div class="work-company">Online Betting Platform</div>
-						<div class="work-description">
-							Play to hit the results of the Football World Cup <br />
-							Compete with your friends by putting together groups <br />
-							Developed with React.js and Node.js on MongoDB
-						</div>
-						<div class="work-position">
-							<a
-								href="https://prode-react-5spfp.ondigitalocean.app/"
-								target="_blank"
-							>
-								https://prode-react.ondigitalocean.app/portada</a
-							>
-						</div>
-					</div>
-
-					<div class="celpc griditem2">
-						<a
-							href="https://prode-react-5spfp.ondigitalocean.app/"
-							target="_blank"
-							class="acombo"
-						>
-							<img class="celpcimg" src="img/comboprode.png" alt="prodecombo"
-						/></a>
-					</div>
-
-					<div class="work griditem3">
-						<div class="work-date">Caruchef</div>
-						<div class="work-company">Gourmet Catering</div>
-						<div class="work-description">
-							Static page for gourmet catering business <br />
-							HTML, JS, CSS
-						</div>
-						<div class="work-position">
-							<a href="https://caruchef.com.ar" target="_blank">
-								https://caruchef.com.ar/</a
-							>
-						</div>
-					</div>
-					<div class="celpc griditem4">
-						<a href="https://caruchef.com.ar" target="_blank" class="acombo">
-							<img class="celpcimg" src="img/ccarucombo.png" alt="carucombo"
-						/></a>
-					</div>
-
-					<div class="work griditem5">
-						<div class="work-date">Procnost</div>
-						<div class="work-company">Tools Marketer</div>
-						<div class="work-description">
-							Static page for tools seller business <br />
-							HTML, JS, CSS
-						</div>
-						<div class="work-position">
-							<a href="https://procnost.com.ar" target="_blank">
-								https://procnost.com.ar/</a
-							>
-						</div>
-					</div>
-					<div class="celpc griditem6">
-						<a href="https://procnost.com.ar" target="_blank" class="acombo"
-							><img
-								class="celpcimg"
-								src="img/ccomboprocnost.png"
-								alt="proccombo"
-						/></a>
-					</div>
-
-					<div class="work griditem7">
-						<div class="work-date">Estudio V&L</div>
-						<div class="work-company">Law Firm</div>
-						<div class="work-description">
-							Static page for law firm <br />
-							HTML, JS, CSS
-						</div>
-						<div class="work-position">
-							<a href="https://varelaledesma.com/" target="_blank">
-								https://varelaledesma.com.ar/</a
-							>
-						</div>
-					</div>
-					<div class="celpc griditem8">
-						<a href="https://varelaledesma.com/" target="_blank" class="acombo"
-							><img
-								class="celpcimg"
-								src="img/cestudiovlcombo.png"
-								alt="estudiovlcombo"
-						/></a>
-					</div>
-
-					<div class="work griditem9">
-						<div class="work-date">eCommerce</div>
-						<div class="work-company">Course Practice Project</div>
-						<div class="work-description">
-							eBay-like e-commerce auction site that allow users to post auction
-							listings, place bids on listings, comment on those listings, and
-							add listings to a "watchlist." <br />
-							Developed with Django, HTML, CSS, JS
-						</div>
-						<div class="work-position">
-							<a
-								href="https://ecommerceapp-x4tss.ondigitalocean.app/"
-								target="_blank"
-							>
-								https://ecommerceapp-ondigitalocean.app/</a
-							>
-						</div>
-					</div>
-					<div class="celpc griditem10">
-						<a
-							href="https://ecommerceapp-x4tss.ondigitalocean.app/"
-							target="_blank"
-							class="acombo"
-							><img class="celpcimg" src="img/cecommcombo.png" alt="ecommcombo"
-						/></a>
-					</div>
-
-					<div class="work griditem11">
-						<div class="work-date">Network</div>
-						<div class="work-company">Course Practice Project</div>
-						<div class="work-description">
-							Twitter-like social network website for making posts and following
-							users. <br />
-							Developed with Django, HTML, CSS, JS
-						</div>
-						<div class="work-position">
-							<a href="https://www.network-demo.com/" target="_blank"
-								>https://www.network-demo.com/</a
-							>
-						</div>
-					</div>
-					<div class="celpc griditem12">
-						<a
-							href="https://www.network-demo.com/"
-							target="_blank"
-							class="acombo"
-							><img class="celpcimg" src="img/cnetcombo.png" alt="ecommcombo"
-						/></a>
-					</div>
-				</div>
-			</div>
-		</section>
+	
 
 		<a name="contact"></a>
 
@@ -389,8 +607,8 @@
 						<!-- <div class="experience-date">Contact</div> -->
 						<div class="contact-company">Contact</div>
 						<div class="contact-description">
-							<a href="mailto:ortiztato@gmail.com"
-								><svg
+							<a href="mailto:ortiztato@gmail.com" rel="noopener noreferrer">
+								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="16"
 									height="16"
@@ -404,8 +622,8 @@
 								</svg>
 								<div class="contacttext">ortiztato@gmail.com</div> </a
 							><br />
-							<a href="https://wa.me/+5491140937510"
-								><svg
+							<a href="https://wa.me/+5491140937510" rel="noopener noreferrer">
+								<svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="16"
 									height="16"
@@ -421,6 +639,7 @@
 							<a
 								href="https://www.linkedin.com/in/santiago-ortiz-basualdo-644a87168/"
 								target="_blank"
+								rel="noopener noreferrer"
 								><svg
 									xmlns="http://www.w3.org/2000/svg"
 									width="16"

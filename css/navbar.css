@@ -26,6 +26,11 @@
   color: var(--primary-color);
 }
 
+.logo:hover {
+  color: var(--primary-color);
+  filter: brightness(0.7);
+}
+
 .logo img {
   border-radius: 50%;
 }
