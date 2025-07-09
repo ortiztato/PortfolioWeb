@@ -35,7 +35,7 @@ br {
   justify-content: center;
   margin: auto;
   gap: 20px; 
-  margin-bottom: 15px;
+  margin-bottom: 60px;
 }
 
 @media (min-width: 950px) {
@@ -71,7 +71,6 @@ br {
   font-size: 28px;
   /* font-weight: bold; */
   color: var(--secundary-color);
-  margin-top: 60px;
 }
 
 .work-company {
