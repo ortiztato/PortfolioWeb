@@ -3,9 +3,21 @@
 }
 
 .profile-img {
-  width: 80%;
-  max-width: 300px;
-  transform: scaleX(-1);
+  border-radius: 50%;
+  object-fit: cover;
+  width: 220px;
+  height: 220px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  display: block;
+  margin: 0 auto;
+  max-width: 350px;
+}
+
+@media (max-width: 600px) {
+  .profile-img {
+    width: 160px;
+    height: 160px;
+  }
 }
 
 .profile-img-section {
@@ -14,6 +26,11 @@
   text-align: center;
 }
 
+@media (min-width: 600px) {
+  .profile-img-section {
+    margin-left: 60px;
+  }
+}
 
 .profile {
   text-align: center;
@@ -74,11 +91,7 @@
 
   }
 
-  .profile-img {
-    width: 70%;
-    max-width: 350px;
 
-  }
 
   .profile {
     text-align: left;
